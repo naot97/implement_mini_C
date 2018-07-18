@@ -1,0 +1,16 @@
+
+      
+      void main () {
+      foo();
+      }
+      int foo(){
+        int a;
+        a=1;
+        do{
+        a=a+1;
+        if(a>10) break;
+        return 999;
+        }
+        while(a<100);
+        }
+      

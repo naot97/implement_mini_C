@@ -1,0 +1,1 @@
+ int a[3]; void main() {  a[0] = 5 * 5 + 10; a[1] = a[a[2]];  putIntLn(a[1]); }    

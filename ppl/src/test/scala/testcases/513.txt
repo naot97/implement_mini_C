@@ -1,0 +1,9 @@
+
+    int a ;
+    void main () {
+      a = --(-1 + 2 * -4 + 6);
+      for (a = a; a > 10; a = a + 1)
+        a = 0;
+      putIntLn(a)  ;
+    } 
+    

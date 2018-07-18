@@ -1,0 +1,12 @@
+
+    int a ;
+    void main () {
+      a = --(-1 + 2 * -4 + 6);
+      if (a >= 0)
+        if (a > 5) putString("lon hon 5");
+        else putString("be hon 5 lon hon -1");
+      else 
+        if (a < -5) putString("be hon -5");
+        else putString("lon hon -5 be hon 0");  
+    } 
+    

@@ -1,0 +1,271 @@
+compile
+run
+run mc.Main -assign1phase1
+run -assign1phase1
+exit
+compile
+test
+test:run
+test:run -assign1phase1
+test:run
+test:run -assign1phase1
+test:compile
+test:run
+test:run -assign1phase1
+test:compile
+test:run -assign1phase1
+test:run -assign1phase2
+test:run -assign1phase1
+exit
+resolvers.eval foreach println
+(scalacOptions in Compile).eval foreach rintln
+(scalacOptions in Compile).eval foreach println
+console
+exit
+consoleProject
+exit
+compile
+test:compile
+test:run
+test:run -assign1phase1
+test:run -assign1phase2
+reload
+test
+exit
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+reload
+test
+exit
+eclipse
+exit
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+test
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+test
+; {file:/Users/nhphung/Documents/fromSamsungLaptop/Monhoc/KS-NNLT/2016CQHL/testsbt/check3/}root/products; {file:/Users/nhphung/Documents/fromSamsungLaptop/Monhoc/KS-NNLT/2016CQHL/testsbt/check3/}root/test:products
+test
+compile
+test
+~compile
+test
+compile
+test
+; {file:/Users/nhphung/Documents/fromSamsungLaptop/Monhoc/KS-NNLT/2016CQHL/testsbt/check3/}root/products; {file:/Users/nhphung/Documents/fromSamsungLaptop/Monhoc/KS-NNLT/2016CQHL/testsbt/check3/}root/test:products
+test
+run -assign1phase2
+test
+run -assign1phase2
+gen
+compile
+run "mc.Main -assign1phase2"
+run -assign1phase2
+test
+compile
+test
+compile
+test
+testOnly AstSuite
+compile
+testOnly AstSuite
+compile
+testOnly AstSuite
+test
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+test
+compile
+test
+compile
+test
+compile
+testOnly CheckerSuite
+compile
+testOnly CheckerSuite
+compile
+testOnly CheckerSuite
+compile
+testOnly CheckerSuite
+compile
+testOnly CheckerSuite
+compile
+testOnly CheckerSuite
+test
+reload
+compile
+test
+reload
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+compile
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+compile
+reload
+compile
+run
+run "src/test/scala/testcases/9.txt"
+compile
+run "src/test/scala/testcases/9.txt"
+compile
+run "src/test/scala/testcases/9.txt"
+compile
+run "src/test/scala/testcases/9.txt"
+compile
+compile -feature
+run "src/test/scala/testcases/9.txt"
+compile
+run
+run "src/test/scala/testcases/9.txt"
+reload
+compile
+run "src/test/scala/testcases/9.txt"
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+run "src/test/scala/testcases/9.txt"
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+test
+testOnly LexerSuite
+exit
+compile
+test
+testOnly LexerSuite
+compile
+test
+compile
+test
+clean
+test
+compile
+test
+clean
+exit
+clean
+compile
+testOnly LexerSuite
+compile
+testOnly LexerSuite
+test
+;reload; */*:dumpStructureTo /private/var/folders/py/gpcm5q394q75cvsslr0mgx640000gn/T/sbt-structure.xml download resolveClassifiers
+compile
+clean
+compile
+test
+compile
+test
+clean
+compile
+test
+clean
+exit
+clean
+compile
+tes
+test
+reload
+r
+exit
+clean
+compile
+test
+clean
+exit
+tOnly CodeGen-
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+java -cp bcel-5.2.jar  JasminVisitor io
+compile
+java -cp bcel-5.2.jar  JasminVisitor io
+testOnly CodeGenSuite
+testOnly CodeGenSuite]
+compile
+testOnly CodeGenSuite]
+testOnly CodeGenSuite
+testOnly CodeGenSuite]
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+nnm
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite
+compile
+testOnly CodeGenSuite

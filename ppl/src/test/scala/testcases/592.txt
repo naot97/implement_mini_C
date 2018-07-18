@@ -1,0 +1,11 @@
+ void main(){
+            putInt( foo(2,2) );
+            putInt( foo(2, 1  ));
+        }
+
+        int foo(int a, int b){
+            if (a > b) 
+              return 1;
+            else return 0;
+        }
+         

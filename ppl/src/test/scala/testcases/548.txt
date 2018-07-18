@@ -1,0 +1,6 @@
+
+      
+      void main () {
+      putFloatLn(2.6 - 3.0);
+      }
+      

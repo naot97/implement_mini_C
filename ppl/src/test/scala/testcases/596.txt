@@ -1,0 +1,34 @@
+float EPSILON;
+float squareRoot(float x){
+return testSQ(x,1);
+}
+float testSQ(float a, float b){
+if (closeEnough(a/b,b)) return b; else return testSQ(a,betterGuess(a,b));
+}
+boolean closeEnough(float a, float b){
+if (a-b>=0) return a-b<EPSILON; else return b-a<EPSILON;
+}
+float betterGuess(float a, float b){
+return (b+a/b)/2;
+}
+void main(){ // solve equation: a*x^2 + b*x + c = 0
+float a,b,c,delta,x_1,x_2;
+EPSILON = 0.001;
+a = 2; // enter a = 2;
+b = 5; // enter b = 5;
+c = 2; // enter c = 2;
+delta = b*b - 4*a*c; // delta = 9;
+if (delta < 0) {
+putString("The equation has no solution");
+return;
+} else {
+x_1 = (-b - squareRoot(delta))/(2*a); // x_1 = -2.0
+x_2 = (-b + squareRoot(delta))/(2*a); // x_2 = -0.5
+putString("x_1 = ");
+putFloat(x_1);
+putString("; x_2 = ");
+putFloat(x_2);
+}
+1;
+return;
+}

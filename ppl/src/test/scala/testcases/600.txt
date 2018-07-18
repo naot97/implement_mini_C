@@ -1,0 +1,10 @@
+ void main(){
+          int b[6];
+          
+          putIntLn(foo(b)[foo(b)[3]]);
+          }
+        int[] foo(int a[]){
+          a[3] = 3;
+          return a;
+        }
+         

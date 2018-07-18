@@ -1,0 +1,11 @@
+
+      string foo(string str){
+      return goo();
+      }
+      string goo(){
+      return "abc";
+      }
+      void main () {
+      putString(foo("bcd"));
+      }
+      

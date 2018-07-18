@@ -1,0 +1,8 @@
+ void main(){
+            string str;
+            str = "hcmut-1513539";
+            putStringLn(str);
+        }
+
+        
+         

@@ -1,0 +1,1 @@
+void main () {foo(125); } void foo(int a){ putIntLn(a);}

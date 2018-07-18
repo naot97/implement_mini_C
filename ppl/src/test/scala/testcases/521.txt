@@ -1,0 +1,20 @@
+
+    float a;
+    void main () {
+      float a; a =1;
+      {
+        putFloatLn(foo(2,a) );
+      }
+    } 
+    int foo(float a, float b){
+      {
+        {
+          {
+
+          }
+        }
+      return -2;
+      }
+    }
+    
+    

@@ -1,0 +1,8 @@
+
+    
+    void main () {
+      boolean a;
+      a = (2 > 4 + 3);
+      putBool(a);
+    }
+    

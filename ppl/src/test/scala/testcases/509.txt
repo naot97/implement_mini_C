@@ -1,0 +1,7 @@
+
+    string a[5];
+    boolean b[4];
+    void main () {
+      putString(a[4]);
+      putBoolLn(b[3]);
+    } 

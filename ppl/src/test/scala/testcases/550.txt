@@ -1,0 +1,14 @@
+
+      
+      void main () {
+      main1();
+      }
+      int main1(){
+      int a;
+      a = 100;
+      do{
+      if(a==0) return a;
+      a = a-1;
+      }while(a>0);
+      }
+      

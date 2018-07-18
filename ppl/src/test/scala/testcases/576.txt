@@ -1,0 +1,22 @@
+
+    boolean a;
+    void main () {
+      int b;
+      b = 0;
+      do
+        do
+          b = b + 1;
+          {
+            int b;
+            b = 6;
+            {}
+            {}
+          }
+          {}
+        while (b < 6);
+        b = b - 2;
+      while(a);
+      putIntLn(b);
+      putBoolLn(a);
+    } 
+    

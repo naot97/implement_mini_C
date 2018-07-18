@@ -1,0 +1,6 @@
+
+    float a;
+    void main () {
+      //a = getFloat();
+      putFloat(a);
+    } 

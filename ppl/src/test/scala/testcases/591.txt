@@ -1,0 +1,11 @@
+ void main(){
+        int a,b,c;
+        boolean d;
+        a = b = c = 5;
+        d = ((a = 1) == 2) && ((b = 2)==2) && ((c = 3) == 4);
+        putIntLn(a);
+        putIntLn(b);
+        putIntLn(c);
+        putBoolLn(d);
+        }
+         

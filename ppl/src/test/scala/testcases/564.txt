@@ -1,0 +1,10 @@
+
+    int a ;
+    void main () {
+      int i;
+      a = 1;
+      for (i = 1; i < 10; i = i + 1)
+        a = a * 2;
+      putIntLn(a)  ;
+    } 
+    

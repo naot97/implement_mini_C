@@ -1,0 +1,110 @@
+Run starting. Expected test count is: 0
+CodeGenSuite:
+- 1. two simple method
+- 2. simple program and binaryop
+- 3. print int by putFloatLn
+- 4. test tren group
+- 5. global variable int
+- 6. global variable float
+- 7. global variable string
+- 8. global variable arr
+- 9. int function foo
+- 10. int function foo
+- 11. if statement1
+- 12. if statement2
+- 13. for statement1
+- 14. for statement2
+- 15. for statement2
+- 16. do while statement 1
+- 17. test tren lop
+- 18. test break for
+- 19. test continue for
+- 20. test continue for
+- 21. test putFloat int value
+- 22. test short-cicruit
+- 23. test do while
+- 24. test do while 2
+- 25. test do while 3
+- 26. test do while 4
+- 27. test array
+- 28. test array
+- 29. test array 2 
+- 30. test array 3 
+- 31. test array 4 
+- 32. test array 5 
+- 33. test break 
+- 34. test break 
+- 35. test break 2 
+- 36. test break 3 
+- 37. test for co block 
+- 38. test binaryop reop 
+- 39. test binaryop phep gan trong reop 
+- 40.test exprion long nhau 
+- 41.test compare variable int and float
+- 42.test put many variable
+- 43.test return in function foo
+- 44.write value interger
+- 45.write value float 
+- 46.write variable string
+- 47. test tren group : call exp
+- 48. test tren group : putFloatLn
+- 49. test tren group : nguyen van thi
+- 50. test tren group : function not return ?
+- 51. test array 5 
+- 52. test break 
+- 53. test break 
+- 54. test break 2 
+- 55. test break 3 
+- 56. test for co block 
+- 57. test binaryop reop 
+- 58. test binaryop phep gan trong reop 
+- 59.short-circuit evaluation 
+- 60. int function foo
+- 61. if statement1
+- 62. if statement2
+- 63. for statement1
+- 64. for statement2
+- 65. for statement2
+- 66. do while statement 1
+- 67. test tren lop
+- 68. test break for
+- 69. test continue for
+- 70. test continue for
+- 71. test putFloat int value
+- 72. test short-cicruit
+- 73. test do while
+- 74. test do while 2
+- 75. test do while 3
+- 76. test do while 4
+- 77. test array
+- 78. test array
+- 79. test array 2 
+- 80. test array 3 
+- 81. test array 4 
+- 82. test array 5 
+- 83. test break 
+- 84. test break 
+- 85. test break 2 
+- 86. test break 3 
+- 87. test for co block 
+- 88. test binaryop reop 
+- 89. test binaryop phep gan trong reop 
+- 90.test tren lop kho 
+- 91.short-circuit evaluation
+- 92.test return in function foo
+- 93.write value interger
+- 94.write value float 
+- 95.write variable string
+- 96. solve quadratic equation
+- 97. test tren group : putFloatLn
+- 98. test tren group : nguyen van thi
+- 99.short-circuit evaluation ((a = 1) == 2) || ((b = 2)==2) || ((c = 3) == 4)
+- FUNCTION CALL: test return ARRAYPOINTER type
+- BLOCK SCOPE: 
+- FUNCTION CALL: test DANGENOUS POINTER
+- ANDOP: short-circuit evaluation ((a = 1) == 2) && ((b = 2)==2) && ((c = 3) == 4)
+Run completed in 2 seconds, 605 milliseconds.
+Total number of tests run: 103
+Suites: completed 1, aborted 0
+Tests: succeeded 103, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.

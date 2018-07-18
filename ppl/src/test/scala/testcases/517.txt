@@ -1,0 +1,13 @@
+
+    int a ;
+    void main () {
+      putInt(foo(1,2.5));
+    } 
+    int foo(int a, float b){
+      if (a == b)
+        return 1;
+      else return 0;
+    }
+    string[] foo2(int a, int b){
+    }
+    

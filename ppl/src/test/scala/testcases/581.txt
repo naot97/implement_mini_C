@@ -1,0 +1,12 @@
+
+    int x;
+    void main () {
+      int a[5],b[4];
+      foo(2)[3+x] = a[b[2]] +3;
+    } 
+    int[] foo(int d){
+      int a[5];
+      a[d] = 5;
+      return a;
+    }
+    

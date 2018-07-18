@@ -1,0 +1,10 @@
+
+    int a ;
+    void main () {
+      putInt(foo());
+    } 
+    int foo(){
+      return 5;
+      putInt(a);
+    }
+    

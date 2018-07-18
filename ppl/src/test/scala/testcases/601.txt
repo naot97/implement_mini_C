@@ -1,0 +1,11 @@
+ void main(){
+          int a,b[10];
+          {
+            int c[3],d;
+            c[1] = 1;
+            putIntLn(c[1]);
+            2<= 4;
+          }
+          1;  
+        }
+         

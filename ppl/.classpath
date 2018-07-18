@@ -1,0 +1,30 @@
+<classpath>
+  <classpathentry excluding="resources/" kind="src" path="src/main"/>
+  <classpathentry kind="src" path="target/scala-2.11/src_managed/main/src/main"/>
+  <classpathentry excluding="src/main/" kind="src" path="target/scala-2.11/src_managed/main"/>
+  <classpathentry kind="src" path="src/test/scala"/>
+  <classpathentry kind="lib" path="/Applications/scala/antlr-4.6-complete.jar"/>
+  <classpathentry sourcepath="/Users/nhphung/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar" kind="lib" path="/Users/nhphung/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/Users/nhphung/.ivy2/cache/org.scalatest/scalatest_2.11/docs/scalatest_2.11-3.0.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry sourcepath="/Users/nhphung/.ivy2/cache/org.scalactic/scalactic_2.11/srcs/scalactic_2.11-3.0.1-sources.jar" kind="lib" path="/Users/nhphung/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/Users/nhphung/.ivy2/cache/org.scalactic/scalactic_2.11/docs/scalactic_2.11-3.0.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/Users/nhphung/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.5-sources.jar" kind="lib" path="/Users/nhphung/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/Users/nhphung/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.5-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/Users/nhphung/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar" kind="lib" path="/Users/nhphung/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/Users/nhphung/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/docs/scala-parser-combinators_2.11-1.0.4-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

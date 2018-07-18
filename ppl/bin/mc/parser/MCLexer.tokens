@@ -1,0 +1,12 @@
+T__0=1
+T__1=2
+LP=3
+RP=4
+WS=5
+ERROR_CHAR=6
+UNCLOSE_STRING=7
+ILLEGAL_ESCAPE=8
+'int'=1
+'main'=2
+'{'=3
+'}'=4

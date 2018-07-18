@@ -1,0 +1,15 @@
+
+    void main () {
+      putIntLn(toan()[4]);
+    } 
+
+    int[] toan(){
+      return foo();
+    }
+
+    int[] foo(){
+      int a[5];
+      a[4] = 5;
+      return a;
+    }
+    

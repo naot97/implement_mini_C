@@ -1,0 +1,6 @@
+
+    string a;
+    void main () {
+      //a = getFloat();
+      putString(a);
+    } 

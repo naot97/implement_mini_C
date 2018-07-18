@@ -1,0 +1,11 @@
+
+    boolean a;
+    void main () {
+      int b;
+      do
+        b = 2;
+      while(a);
+      putIntLn(b);
+      putBoolLn(a);
+    } 
+    

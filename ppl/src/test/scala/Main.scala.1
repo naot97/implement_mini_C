@@ -1,0 +1,117 @@
+
+
+/**
+ * @author nhphung
+ */
+
+
+import java.io.{PrintWriter,File}
+import java.util.concurrent.{Executors,TimeUnit,TimeoutException}
+import org.antlr.v4.runtime.ANTLRFileStream
+import scala.io.Source
+
+import mc.parser._
+import org.scalatest._
+
+trait Timed {
+  def timeoutAfter(timeout: Long)(codeToTest: => Unit): Unit = {
+    val executor = Executors.newSingleThreadExecutor
+    val future = executor.submit(new Runnable {
+      def run = codeToTest
+    })
+
+    try {
+      future.get(timeout, TimeUnit.MILLISECONDS)
+    }
+    finally {
+      executor.shutdown()
+    }
+  }
+}
+
+object ExampleSpec extends Timed  {
+
+  
+  val sepa = File.separator // dung cho linux
+  val phase1 = "assign1phase1"
+  val phase2 = "assign1phase2"
+
+  def main(args: Array[String]): Unit = {
+    if (args.length > 0) {
+      val option = args(0).drop(1)
+      
+      val baseDir = "." + sepa + "src" + sepa + "test" + sepa + "scala" + sepa 
+
+      val startphase1 = 1
+      val endphase1 = 3
+      val indirphase1 = baseDir+"lexertestcases"
+      val outdirphase1 = baseDir+"lexersolutions"
+      val expectedphase1 = baseDir+"lexerexpected"
+      
+      val startphase2 = 1
+      val endphase2 = 3
+      val indirphase2 = baseDir+"recogtestcases"
+      val outdirphase2 = baseDir+"recogsolutions"
+      val expectedphase2 = baseDir+"recogexpected"
+     
+      
+      //println(new File(".").getAbsolutePath())
+      
+      option match {
+        
+        case `phase1` => runTest(option,startphase1,endphase1,indirphase1,outdirphase1,expectedphase1)
+        case `phase2` => runTest(option,startphase2,endphase2,indirphase2,outdirphase2,expectedphase2)
+        
+        
+        case _ => //throw new ClassCastException
+        runTest(option,startphase1,endphase1,indirphase1,outdirphase1,expectedphase1)
+      }
+    }
+    else  println("Usage: scala Main -option ")
+  }
+  
+  def runTest(opt:String,start:Int,end:Int,indir:String,outdir:String,expected:String) = {
+    var count = 0
+    for (i <- start to end) {
+      
+      print("Test "+i+" ")
+      
+      
+      val source = new ANTLRFileStream(s"$indir$sepa$i.txt")
+      val dest = new PrintWriter(new File(s"$outdir$sepa$i.txt"))
+      
+      try 
+      {
+        timeoutAfter(1000)  
+        {
+            opt match {
+              case `phase1` => TestLexer.test(source,dest)
+                
+              case `phase2` => TestParser.test(source,dest)              
+             
+              case _ => throw new ClassCastException
+          }
+        }
+      } 
+      catch 
+      {
+        case te: TimeoutException => dest.println("Test runs timeout")
+        //case e : Exception => dest.println(e)
+      } 
+      finally 
+      {
+        //source.close()
+        dest.close()
+        val fileContents = Source.fromFile(s"$outdir$sepa$i.txt").getLines.mkString
+        val expectedContents = Source.fromFile(s"$expected$sepa$i.txt").getLines.mkString
+        if (fileContents == expectedContents) {
+            println("passed")
+            count = count + 1
+        } else {
+            println("failed")
+        }
+
+      }
+    }
+  } 
+}

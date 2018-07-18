@@ -1,0 +1,11 @@
+
+    int x;
+    void main () {
+      
+    } 
+    int[] foo(int d){
+      int a[5];
+      a[d] = 5;
+      return a;
+    }
+    

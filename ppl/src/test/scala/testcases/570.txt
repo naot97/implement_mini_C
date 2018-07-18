@@ -1,0 +1,9 @@
+
+    void main () {
+      putFloatLn(foo());
+    } 
+    float foo(){
+      return 3;
+    }
+    
+    

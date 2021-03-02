@@ -1,4 +1,4 @@
-# implement_mini_C
+# Interpreter of the micro C
 
 A interpreter for a programing language called Micro C, similar to C but simpler. The description of the language is :  https://github.com/naot97/implement_mini_C/blob/master/specific_MC.pdf
 
